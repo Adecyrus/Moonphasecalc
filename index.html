@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Moon Phase Calculator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Moon Phase Calculator</h1>
+        <div class="input-group">
+            <label for="dayInput">Day:</label>
+            <input type="text" id="dayInput" placeholder="Day">
+        </div>
+        <div class="input-group">
+            <label for="monthSelect">Month:</label>
+            <select id="monthSelect">
+                <option value="01">January</option>
+                <option value="02">February</option>
+                <option value="03">March</option>
+                <option value="04">April</option>
+                <option value="05">May</option>
+                <option value="06">June</option>
+                <option value="07">July</option>
+                <option value="08">August</option>
+                <option value="09">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label for="yearInput">Year:</label>
+            <input type="text" id="yearInput" placeholder="Year">
+        </div>
+        <button onclick="calculateMoonPhase()">Calculate</button>
+        <div id="result"></div>
+    </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
